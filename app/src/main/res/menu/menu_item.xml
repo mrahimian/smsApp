@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!--<item android:id="@+id/submit_order"
+        android:title="ثبت سفارش"
+        android:gravity="right" />-->
+    <item android:id="@+id/tell_price"
+        android:title="اعلام قیمت به مشتری جهت تکمیل سفارش"
+        android:gravity="right" />
+    <item android:id="@+id/send_payment_link"
+        android:title="ارسال لینک پرداخت"
+        android:gravity="right" />
+    <item android:id="@+id/send_poll"
+        android:title="ارسال پیامک نظر سنجی"
+        android:gravity="right" />
+    <item android:id="@+id/send_receive_sms"
+        android:title="ارسال پیامک تحویل به مشتری"
+        android:gravity="right" />
+    <item android:id="@+id/final_order"
+        android:title="نهایی شدن سفارش و پردازش"
+        android:gravity="right" />
+    <item android:id="@+id/tell_price_sms"
+        android:title="اعلام قیمت تلفنی / پیامکی"
+        android:gravity="right" />
+    <item android:id="@+id/take_to_transport_unit"
+        android:title="تحویل به واحد حمل و نقل"
+        android:gravity="right" />
+    <item android:id="@+id/manage_texts"
+        android:title="مدیریت متون پیش فرض"
+        android:gravity="right" />
+    <item android:id="@+id/take_to_freight"
+        android:title="تحویل به باربری شهرستان"
+        android:gravity="right" />
+</menu>
