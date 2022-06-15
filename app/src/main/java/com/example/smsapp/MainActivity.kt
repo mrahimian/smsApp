@@ -105,11 +105,11 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun sendSMS(num: Int) {
-        val from = "100091076434"
+        val from = "************"
         val policy = StrictMode.ThreadPolicy.Builder().permitAll().build()
         StrictMode.setThreadPolicy(policy)
         try {
-            val soapClient = SoapClient("mahdi.jafari98", "@25506339Aa")
+            val soapClient = SoapClient("*******", "**********")
             val client = currentOrder
             if (num == 0) {
                 soapClient.SendSimpleSMS2(
