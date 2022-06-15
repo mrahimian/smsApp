@@ -48,11 +48,11 @@ class SendReceive : AppCompatActivity() {
     }
 
     private fun sendSMS() {
-        val from = "50004000393533"
+        val from = "**********"
         val policy = StrictMode.ThreadPolicy.Builder().permitAll().build()
         StrictMode.setThreadPolicy(policy)
         try {
-            val soapClient = SoapClient("mahdi.jafari98", "@25506339Aa")
+            val soapClient = SoapClient("**********", "*******")
             val client = MainActivity.currentOrder
             val obj: Any? =
                 soapClient.SendSimpleSMS2(
