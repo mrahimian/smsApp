@@ -41,12 +41,12 @@ class Freight : AppCompatActivity() {
     }
 
     private fun sendSMS() {
-        val from = "50004000393533"
+        val from = "******"
         val policy = StrictMode.ThreadPolicy.Builder().permitAll().build()
         StrictMode.setThreadPolicy(policy)
         try {
-//                var p = arrayOf("09197664124","09124441765")
-            val soapClient = SoapClient("mahdi.jafari98", "@25506339Aa")
+//                var p = arrayOf("*******","*******")
+            val soapClient = SoapClient("*******", "*********")
             val client = MainActivity.currentOrder
             val obj: Any? =
                 soapClient.SendSimpleSMS2(
